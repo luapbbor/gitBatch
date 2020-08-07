@@ -68,7 +68,7 @@ GOTO MENU
 :gitCommit
 cd %gitLocalPath%
 set /p commitComment=Describe the commit: 
-git commit -m %commitComment%
+git commit -m "%commitComment%"
 pause
 CLS
 GOTO MENU
